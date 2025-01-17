@@ -1,6 +1,6 @@
-# Llama Empire App
+# Llama Empire Display
 
-Llama Empire App es una aplicación diseñada para **Llama Empire**, nuestro negocio familiar. Su objetivo principal es facilitar la presentación de los diseños de los polos a los clientes.
+Llama Empire Display es una aplicación diseñada para **Llama Empire**, nuestro negocio familiar. Su objetivo principal es facilitar la presentación de los diseños de los polos a los clientes.
 
 Esta aplicación **no es de código abierto** y su repositorio en GitHub está disponible únicamente como muestra de mi trabajo para incluirlo en mi CV personal.
 
@@ -10,7 +10,7 @@ Esta aplicación **no es de código abierto** y su repositorio en GitHub está d
 - **Desarrollo frontend completo**: Creada usando HTML5, CSS3 y JavaScript.
 - **Compatibilidad móvil**: Convertida en una aplicación Android (.apk) con Apache Cordova.
 
-## ¿Cómo está hecha Llama Empire App?
+## ¿Cómo está hecha Llama Empire Display?
 
 El proyecto se desarrolló siguiendo estas etapas:
 
