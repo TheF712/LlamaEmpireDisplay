@@ -1,8 +1,10 @@
+// Creado otro archivo JavaScript sobre inactividad debido a que las rutas en ambos son diferentes.
+
 let inactivityTimer;
 let countdownTimer;
 let countdownValue = 20;
 
-// Función para mostrar el aviso de inactividad
+// Mostrar aviso de inactividad
 function showInactivityAlert() {
     // Crear el overlay
     const overlay = document.createElement('div');
@@ -47,6 +49,7 @@ function showInactivityAlert() {
     // Iniciar el temporizador de cuenta regresiva
     countdownTimer = setInterval(() => {
         countdownValue--;
+        // Cambiar el texto del temporizador dependiendo del tiempo restante
         if (countdownValue === 1) {
             timerText.textContent = `Redirigiendo en 1 segundo...`;
         } else if (countdownValue == 0) {
@@ -77,7 +80,7 @@ function resetInactivity() {
     }
 }
 
-// Agregar eventos para detectar actividad
+// Detectar actividad
 ['mousemove', 'keydown', 'mousedown', 'touchstart', 'scroll'].forEach((event) => {
     document.addEventListener(event, resetInactivity);
 });
