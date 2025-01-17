@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    font-family: 'Helvetica', sans-serif;
+    background-color: #666;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Header */
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.header-logo {
+    width: 100%;
+    max-width: none;
+    height: auto;
+    display: block;
+}
+
+/* Estilo para el botón de volver */
+#back-button {
+    position: absolute;
+    top: 120px;  /* Puedes ajustar la distancia desde el borde superior */
+    left: 40px; /* Puedes ajustar la distancia desde el borde izquierdo */
+    z-index: 10; /* Asegura que esté por encima de otros elementos */
+}
+
+.back-button {
+    width: 200px;  /* Ajusta el tamaño del botón */
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.back-button:hover {
+    transform: scale(1.05);
+}
+
+/* Estilo para la imagen del polo */
+.product-container {
+    text-align: center;  /* Centra la imagen */
+    margin-top: 60px;  /* Ajusta el espacio superior */
+}
+
+.product-image {
+    max-width: 100%;
+    width: 600px;
+    display: block;
+    margin-bottom: 80px;
+    margin-top: 10px;
+    opacity: 1;
+    transition: opacity 1s ease-in-out;
+    -webkit-filter: drop-shadow(5px 5px 5px rgba(34, 34, 34, 0.25)); /* Sombra con opacidad */
+    filter: drop-shadow(5px 5px 5px rgba(34, 34, 34, 0.25)); /* Sombra con opacidad */
+}
+
+/* Estilo para la imagen de los precios */
+.price-container {
+    text-align: center;  /* Centra la imagen */
+    margin-top: -60px;    /* Ajusta el espacio superior */
+}
+
+.price-image {
+    max-width: 100%;
+    width: 600px;  /* Ajusta el tamaño de la imagen de los precios */
+    display: block;
+    /* margin-bottom: 20px; */
+    opacity: 1;
+    transition: opacity 1s ease-in-out;
+}

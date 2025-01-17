@@ -1,0 +1,127 @@
+/* General Styles */
+
+/* Importar la fuente Akira Expanded Demo */
+@font-face {
+    font-family: 'Akira Expanded Demo';
+    src: url('font/AkiraExpandedDemo.woff') format('woff'); /* Asegúrate de que la ruta y el formato del archivo sean correctos */
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+    margin: 0;
+    font-family: 'Helvetica', sans-serif;
+    background-color: #666; /* Mismo color de fondo */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Header */
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.header-logo {
+    width: 100%;
+    max-width: none;
+    height: auto;
+    display: block;
+}
+
+/* Catálogo */
+.catalog {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    width: 100%;
+    /* padding: 0 0px; */
+    /* margin-right: 0px; */
+}
+
+/* Rejilla de productos */
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Dos productos por fila */
+    gap: 20px;
+    width: 100%;
+    max-width: 90%; /* Limita el ancho máximo de la rejilla */
+    margin-top: 20px;
+    justify-items: center; /* Centra los productos dentro de la rejilla */
+    align-items: center; /* Centra los productos verticalmente */
+    padding: 0 10px;
+}
+
+/* Estilo para cada producto */
+.product-item {
+    background-color: rgba(0, 0, 0, 0.15);
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%
+}
+
+/* Imagen de los polos */
+.product-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+/* Descripción del producto */
+.product-description {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #ccc;
+}
+
+/* Imagen dentro del botón */
+.product-button {
+    display: inline-block;
+    margin-top: 15px;
+    text-decoration: none;
+}
+
+.button-image {
+    width: 100%; /* Asegura que la imagen ocupe el ancho del botón */
+    max-width: 150px; /* Limita el tamaño máximo */
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.button-image:hover {
+    transform: scale(1.05); /* Efecto de zoom cuando se pasa el ratón */
+}
+
+#inactivity-overlay {
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#countdown-timer {
+    font-family: 'Helvetica', sans-serif;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
