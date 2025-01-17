@@ -1,25 +1,13 @@
-/* General Styles */
-
-/* Importar la fuente Akira Expanded Demo */
-@font-face {
-    font-family: 'Akira Expanded Demo';
-    src: url('font/AkiraExpandedDemo.woff') format('woff'); /* Asegúrate de que la ruta y el formato del archivo sean correctos */
-    font-weight: normal;
-    font-style: normal;
-}
-
-
 body {
     margin: 0;
     font-family: 'Helvetica', sans-serif;
-    background-color: #666; /* Mismo color de fondo */
+    background-color: #666;
     color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-/* Header */
 header {
     width: 100%;
     display: flex;
@@ -35,7 +23,6 @@ header {
     display: block;
 }
 
-/* Catálogo */
 .catalog {
     display: flex;
     justify-content: center;
@@ -43,24 +30,20 @@ header {
     align-items: center;
     margin-top: 20px;
     width: 100%;
-    /* padding: 0 0px; */
-    /* margin-right: 0px; */
 }
 
-/* Rejilla de productos */
 .product-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Dos productos por fila */
+    grid-template-columns: repeat(2, 1fr);
     gap: 20px;
     width: 100%;
-    max-width: 90%; /* Limita el ancho máximo de la rejilla */
+    max-width: 90%;
     margin-top: 20px;
-    justify-items: center; /* Centra los productos dentro de la rejilla */
-    align-items: center; /* Centra los productos verticalmente */
+    justify-items: center;
+    align-items: center;
     padding: 0 10px;
 }
 
-/* Estilo para cada producto */
 .product-item {
     background-color: rgba(0, 0, 0, 0.15);
     padding: 20px;
@@ -73,7 +56,6 @@ header {
     width: 80%
 }
 
-/* Imagen de los polos */
 .product-image {
     max-width: 100%;
     height: auto;
@@ -81,14 +63,12 @@ header {
     transition: transform 0.3s;
 }
 
-/* Descripción del producto */
 .product-description {
     margin-top: 10px;
     font-size: 14px;
     color: #ccc;
 }
 
-/* Imagen dentro del botón */
 .product-button {
     display: inline-block;
     margin-top: 15px;
@@ -96,20 +76,21 @@ header {
 }
 
 .button-image {
-    width: 100%; /* Asegura que la imagen ocupe el ancho del botón */
-    max-width: 150px; /* Limita el tamaño máximo */
+    width: 100%;
+    max-width: 150px;
     height: auto;
     cursor: pointer;
     transition: transform 0.3s;
 }
 
 .button-image:hover {
-    transform: scale(1.05); /* Efecto de zoom cuando se pasa el ratón */
+    transform: scale(1.05);
 }
 
 #inactivity-overlay {
     animation: fadeIn 0.3s ease-in-out;
 }
+
 
 @keyframes fadeIn {
     from {
