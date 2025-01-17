@@ -23,4 +23,7 @@ El proyecto se desarrolló siguiendo estas etapas:
    - Usé **Apache Cordova** para empaquetar el proyecto en una aplicación Android (.apk), lo que permitió su instalación en dispositivos móviles.
 
 ## Capturas de pantalla
-[PantallaPrincipal](LlamaEmpireDisplay/images/ShowcaseGithub/mainpage.jpg)
+- [Pantalla de Inicio](images/ShowcaseGithub/mainpage.jpg)
+- [Catálogo](images/ShowcaseGithub/catalog.jpg)
+- [Al seleccionar un modelo (Imagen Completa)](images/ShowcaseGithub/mainpage.jpg)
+- [Adventencia de inactividad](images/ShowcaseGithub/inactivity.jpg)
