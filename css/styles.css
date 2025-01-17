@@ -1,4 +1,3 @@
-/* General Styles */
 body {
     margin: 0;
     font-family: 'Helvetica', sans-serif;
@@ -9,7 +8,6 @@ body {
     align-items: center;
 }
 
-/* Header */
 header {
     width: 100%;
     display: flex;
@@ -25,7 +23,6 @@ header {
     display: block;
 }
 
-/* Main Content */
 main {
     display: flex;
     flex-direction: column;
@@ -45,7 +42,6 @@ main {
     text-align: center;
 }
 
-/* Imagen de la camiseta */
 .product-image {
     max-width: 100%;
     width: 550px;
@@ -54,8 +50,8 @@ main {
     margin-top: 20px;
     opacity: 1;
     transition: opacity 1s ease-in-out;
-    -webkit-filter: drop-shadow(5px 5px 5px rgba(34, 34, 34, 0.25)); /* Sombra con opacidad */
-    filter: drop-shadow(5px 5px 5px rgba(34, 34, 34, 0.25)); /* Sombra con opacidad */
+    -webkit-filter: drop-shadow(5px 5px 5px rgba(34, 34, 34, 0.25));
+    filter: drop-shadow(5px 5px 5px rgba(34, 34, 34, 0.25));
 }
 
 .catalog-button {
