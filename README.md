@@ -1,6 +1,6 @@
 # Llama Empire Display
 
-Llama Empire Display es una aplicación diseñada para **Llama Empire**, nuestro negocio familiar. Su objetivo principal es facilitar la presentación de los diseños de los polos a los clientes.
+Llama Empire Display es una aplicación diseñada para **Llama Empire**, una marca que fabrica polos. Su objetivo principal es facilitar la presentación de los diseños de los polos a los clientes.
 
 Esta aplicación **no es de código abierto** y su repositorio en GitHub está disponible únicamente como muestra de mi trabajo para incluirlo en mi CV personal. Normalmente este repositorio estará marcado como **privado**, pero se hará público únicamente cuando tenga que mostrar este proyecto.
 
