@@ -79,7 +79,7 @@ function resetInactivity() {
     }
 }
 
-// Decectar actividad
+// Detectar actividad
 ['mousemove', 'keydown', 'mousedown', 'touchstart', 'scroll'].forEach((event) => {
     document.addEventListener(event, resetInactivity);
 });
