@@ -8,7 +8,6 @@ body {
     align-items: center;
 }
 
-/* Header */
 header {
     width: 100%;
     display: flex;
@@ -27,13 +26,13 @@ header {
 /* Estilo para el botón de volver */
 #back-button {
     position: absolute;
-    top: 120px;  /* Puedes ajustar la distancia desde el borde superior */
-    left: 40px; /* Puedes ajustar la distancia desde el borde izquierdo */
-    z-index: 10; /* Asegura que esté por encima de otros elementos */
+    top: 120px;
+    left: 40px;
+    z-index: 10;
 }
 
 .back-button {
-    width: 200px;  /* Ajusta el tamaño del botón */
+    width: 200px;
     height: auto;
     cursor: pointer;
     transition: transform 0.3s;
@@ -43,10 +42,9 @@ header {
     transform: scale(1.05);
 }
 
-/* Estilo para la imagen del polo */
 .product-container {
-    text-align: center;  /* Centra la imagen */
-    margin-top: 60px;  /* Ajusta el espacio superior */
+    text-align: center;
+    margin-top: 60px;
 }
 
 .product-image {
@@ -57,21 +55,19 @@ header {
     margin-top: 10px;
     opacity: 1;
     transition: opacity 1s ease-in-out;
-    -webkit-filter: drop-shadow(5px 5px 5px rgba(34, 34, 34, 0.25)); /* Sombra con opacidad */
-    filter: drop-shadow(5px 5px 5px rgba(34, 34, 34, 0.25)); /* Sombra con opacidad */
+    -webkit-filter: drop-shadow(5px 5px 5px rgba(34, 34, 34, 0.25));
+    filter: drop-shadow(5px 5px 5px rgba(34, 34, 34, 0.25));
 }
 
-/* Estilo para la imagen de los precios */
 .price-container {
-    text-align: center;  /* Centra la imagen */
-    margin-top: -60px;    /* Ajusta el espacio superior */
+    text-align: center;
+    margin-top: -60px;
 }
 
 .price-image {
     max-width: 100%;
-    width: 600px;  /* Ajusta el tamaño de la imagen de los precios */
+    width: 600px;
     display: block;
-    /* margin-bottom: 20px; */
     opacity: 1;
     transition: opacity 1s ease-in-out;
 }
