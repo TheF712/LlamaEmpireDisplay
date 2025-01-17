@@ -22,8 +22,11 @@ El proyecto se desarrolló siguiendo estas etapas:
 2. **Conversión a aplicación móvil**:
    - Usé **Apache Cordova** para empaquetar el proyecto en una aplicación Android (.apk), lo que permitió su instalación en dispositivos móviles.
 
-## Capturas de pantalla
+# Capturas de pantalla
 - [Pantalla de Inicio](images/ShowcaseGithub/mainpage.jpg)
 - [Catálogo](images/ShowcaseGithub/catalog.jpg)
 - [Al seleccionar un modelo (Imagen Completa)](images/ShowcaseGithub/mainpage.jpg)
 - [Adventencia de inactividad](images/ShowcaseGithub/inactivity.jpg)
+
+# Motivación del proyecto
+El propósito principal de esta aplicación es optimizar procesos relacionados con el negocio familiar y demostrar mis habilidades en desarrollo web y móvil. Este proyecto también me ayudó a profundizar en el uso de herramientas como Apache Cordova y la creación de aplicaciones multiplataforma.
