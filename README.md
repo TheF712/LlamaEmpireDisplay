@@ -25,8 +25,8 @@ El proyecto se desarrolló siguiendo estas etapas:
 # Capturas de pantalla
 - [Pantalla de Inicio](images/ShowcaseGithub/mainpage.jpg)
 - [Catálogo](images/ShowcaseGithub/catalog.jpg)
-- [Al seleccionar un modelo (Imagen Completa)](images/ShowcaseGithub/warning.jpg)
-- [Adventencia de inactividad](images/ShowcaseGithub/model.jpg)
+- [Al seleccionar un modelo (Imagen Completa)](images/ShowcaseGithub/model.png)
+- [Adventencia de inactividad](images/ShowcaseGithub/warning.jpg)
 
 # Motivación del proyecto
 El propósito principal de esta aplicación es optimizar procesos relacionados con el negocio familiar y demostrar mis habilidades en desarrollo web y móvil. Este proyecto también me ayudó a profundizar en el uso de herramientas como Apache Cordova y la creación de aplicaciones multiplataforma.
